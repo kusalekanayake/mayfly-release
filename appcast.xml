@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Mayfly</title>
+    <item>
+      <title>Build 450</title>
+      <pubDate>Mon, 24 Aug 2026 13:22:09 +1200</pubDate>
+      <description><![CDATA[First notarised release.]]></description>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/kusalekanayake/mayfly-release/releases/download/v450/Mayfly-450.zip" sparkle:version="450" sparkle:shortVersionString="450" sparkle:edSignature="oi7g/QWsun7sHkYeU6oPZ/3A+DtPX12ZqyKqT9kPLHnZ65fLJA4ME1X0wbR8d6lfgeVZKVgfLjd84M9vyR2GAQ==" length="3749355" type="application/octet-stream"/>
+    </item>
+  </channel>
+</rss>
