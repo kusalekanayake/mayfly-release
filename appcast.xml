@@ -3,13 +3,13 @@
   <channel>
     <title>Mayfly</title>
     <item>
-      <title>Build 455</title>
-      <pubDate>Mon, 24 Aug 2026 16:25:54 +1200</pubDate>
-      <description><![CDATA[Build 455]]></description>
+      <title>Build 456</title>
+      <pubDate>Mon, 24 Aug 2026 16:52:23 +1200</pubDate>
+      <description><![CDATA[Build 456]]></description>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/kusalekanayake/mayfly-release/releases/download/v455/Mayfly-455.zip" sparkle:version="455" 
-                 sparkle:shortVersionString="455" sparkle:edSignature="yqjeWu5HYi8QI6WtsCfEuzlMBLEwO2zahQXS9B0bB9cp1kC09DjG0o3GAg30bFkAOx0i0ndz778zdLsn0R6SDw==" length="3768827" 
-                 length="3768827" type="application/octet-stream"/>
+      <enclosure url="https://github.com/kusalekanayake/mayfly-release/releases/download/v456/Mayfly-456.zip" sparkle:version="456" 
+                 sparkle:shortVersionString="456" sparkle:edSignature="2rYNpDlHrJ4bc+KzCPZNpJ6J9m5NBAmzOMpAzop3H4fHdbyjdiUbmd7200HnsDgpHIG4H5NQx/DjCEkquUKWAw==" length="3768836" 
+                 length="3768836" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
