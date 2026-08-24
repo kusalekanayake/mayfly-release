@@ -3,6 +3,13 @@
   <channel>
     <title>Mayfly</title>
     <item>
+      <title>Build 451</title>
+      <pubDate>Mon, 24 Aug 2026 14:18:19 +1200</pubDate>
+      <description><![CDATA[Ships as a DMG for manual installs. Automatic updates use the zip.]]></description>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/kusalekanayake/mayfly-release/releases/download/v451/Mayfly-451.zip" sparkle:version="451" sparkle:shortVersionString="451" sparkle:edSignature="CId7Hx3lv735xVQPie5rMgrzgjM8YHXdEeS1ma7KkXx0R6KTXMoIpSp9m4Yi1AIWigONnu6BsmfR7GwP9jCHAg==" length="3768814" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Build 450</title>
       <pubDate>Mon, 24 Aug 2026 13:22:09 +1200</pubDate>
       <description><![CDATA[First notarised release.]]></description>
