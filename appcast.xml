@@ -3,13 +3,13 @@
   <channel>
     <title>Mayfly</title>
     <item>
-      <title>Build 634</title>
-      <pubDate>Thu, 24 Sep 2026 10:28:58 +1200</pubDate>
-      <description><![CDATA[Build 634]]></description>
+      <title>Build 644</title>
+      <pubDate>Thu, 24 Sep 2026 14:54:51 +1200</pubDate>
+      <description><![CDATA[Build 644]]></description>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/kusalekanayake/mayfly-release/releases/download/v634/Mayfly-634.zip" sparkle:version="634" 
-                 sparkle:shortVersionString="634" sparkle:edSignature="dKzGwqxjpVfwjOpV2zxKX+djzobOBgS+nDe0r2YbkdUSFQItWR/SNgXgcWgB9pvljVKCBG9i1wAP6K6uPT3HDA==" 
-                 length="5410387" type="application/octet-stream"/>
+      <enclosure url="https://github.com/kusalekanayake/mayfly-release/releases/download/v644/Mayfly-644.zip" sparkle:version="644" 
+                 sparkle:shortVersionString="644" sparkle:edSignature="DyIjOvbuWyngJLwBTSQrmAlyhSS8eA6yQjZ5Pm6+J5s3JveLdRj9NPKPMWK6IuBRjM3gF/+FKEnpnEwRb0usBw==" 
+                 length="5426642" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
