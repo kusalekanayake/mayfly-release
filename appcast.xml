@@ -3,13 +3,30 @@
   <channel>
     <title>Mayfly</title>
     <item>
-      <title>Build 650</title>
-      <pubDate>Thu, 24 Sep 2026 15:27:32 +1200</pubDate>
-      <description><![CDATA[Build 650]]></description>
+      <title>Build 662</title>
+      <pubDate>Mon, 28 Sep 2026 14:52:13 +1300</pubDate>
+      <description><![CDATA[<ul>
+<li><strong>A new note is ready to type in.</strong> The caret now starts in the note itself, so pressing New Note and typing works without clicking first.</li>
+<li><strong>Export and import projects from the File menu.</strong> Moving your projects, briefs and vocabulary to a colleague's copy was only reachable in Settings under a tab called "Import", which is not where anybody looks to export something. It is now File, Export Projects, and the tab is honestly called Import &amp; Export.</li>
+<li><strong>Timesheets can read the screen.</strong> Off unless you switch it on, under Settings, Features, App activity. Mayfly photographs the frontmost window on an interval you choose, reads the text with macOS's own recogniser, matches it against your project codes and keywords, and credits the time. The picture is never saved, the text is never stored, and neither is ever sent to Anthropic. Apps marked personal are skipped, and anything it cannot place confidently is discarded rather than guessed at.</li>
+<li><strong>Slack stops dredging up old conversations.</strong> Connecting a channel had pulled in its recent history, reaching back in some cases to 2019, and the reader worked steadily backwards through it producing todos from years-old messages. That archive is now marked as read, and nothing older than a week is ever considered for a todo again.</li>
+<li><strong>Network hiccups no longer interrupt you.</strong> Losing wifi for a moment used to raise a dialog containing the raw internal error. Transient connection failures are now recorded in the log and otherwise ignored; only failures you can act on are shown, in plain words.</li>
+</ul>
+<ul>
+<li><strong>Slack todos actually appear.</strong> Commitments picked out of Slack were being written to the database and then filtered out of every view, so the notification said two todos were found and the list stayed empty.</li>
+<li><strong>Slack reads itself.</strong> Nothing had ever scheduled a sync, so a connected workspace only updated if you opened Settings and pressed a button. It now syncs on launch, when you switch back to Mayfly, and on a timer you can set.</li>
+<li><strong>Fewer wrong todos from Slack.</strong> The extractor now knows who wrote each message, so a colleague saying "I'll sort that" is no longer recorded as yours. A message has to name you, be written by you, or address a group you are in.</li>
+<li><strong>Switching on a Slack channel starts from now</strong> rather than importing weeks of backlog.</li>
+<li><strong>Slack is hidden unless you turn it on</strong>, under Settings, Features.</li>
+<li><strong>Update notices.</strong> A newer build shows as a chip beside the version number, so you find out without waiting for the daily check to interrupt you.</li>
+<li><strong>Google Drive.</strong> Link a folder to a project and its documents are read as project context, or import them as notes you can edit. Read only: nothing is ever written back to Drive.</li>
+<li><strong>Move projects between copies of Mayfly.</strong> Settings, Connections, Import exports projects, briefs and vocabulary as a readable file. No notes, meetings or todos are included.</li>
+<li><strong>Fixed an app that would not open.</strong> Build 634 was signed with an entitlement its own provisioning profile did not grant, so macOS killed it the moment it launched.</li>
+</ul>]]></description>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/kusalekanayake/mayfly-release/releases/download/v650/Mayfly-650.zip" sparkle:version="650" 
-                 sparkle:shortVersionString="650" sparkle:edSignature="IZ/cSIsCG4/D2Oxn9ZeLnk/xUJHUTQQq8CoZdC+PBqdSkJLAlH6t9AOrbZGmM8KAMc1Kut9fGmkK91NXlQa0AQ==" 
-                 length="5451630" type="application/octet-stream"/>
+      <enclosure url="https://github.com/kusalekanayake/mayfly-release/releases/download/v662/Mayfly-662.zip" sparkle:version="662" 
+                 sparkle:shortVersionString="662" sparkle:edSignature="L3g1QORZCRnCp6/LqlU6KRf3IP07I/pRU11NhcUHQu4OZJGRPx/leWGAfR8bg6uq3DnNQw5C7KcCAxjRK9UBDw==" 
+                 length="5468081" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
