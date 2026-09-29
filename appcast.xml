@@ -3,15 +3,15 @@
   <channel>
     <title>Mayfly</title>
     <item>
-      <title>Build 694</title>
-      <pubDate>Tue, 29 Sep 2026 15:14:13 +1300</pubDate>
+      <title>Build 696</title>
+      <pubDate>Wed, 30 Sep 2026 09:55:43 +1300</pubDate>
       <description><![CDATA[<ul>
-<li><strong>Hand a todo to Claude.</strong> Hover a todo and press the paper plane, or right-click it, and Mayfly copies it as a prompt and brings Claude forward for you to paste into the right chat. The prompt carries the todo, what was said and where, its owner and deadline, and, if you choose "with Project Brief", what Mayfly knows about the project. It asks Claude to say how it would go about it before changing anything. Todos from notes kept out of AI are never offered, and email addresses are replaced. Nothing is sent by Mayfly itself: Claude's desktop app has no way for another app to pick a chat, so you choose it.</li>
+<li><strong>Glass, if you want it.</strong> Settings, General, Surfaces: Solid (as before) or Glass. With Glass on, what is behind the window shows through blurred, in the toolbar, the gaps and faintly through the panes. The glass is set so text keeps the contrast it has on Solid even with a white window behind Mayfly, and the boxes you type into stay solid. It switches back to Solid whenever Reduce transparency is on in System Settings.</li>
 </ul>]]></description>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/kusalekanayake/mayfly-release/releases/download/v694/Mayfly-694.zip" sparkle:version="694" 
-                 sparkle:shortVersionString="694" sparkle:edSignature="kUFTzkyl8z2BqVbsjHW68bythY4i5ZroVQ7/FvFrRdWxW8pEoQt0EEYkx+Dm4sZWncK929Aio50hZvForaKKBg==" 
-                 length="5658857" type="application/octet-stream"/>
+      <enclosure url="https://github.com/kusalekanayake/mayfly-release/releases/download/v696/Mayfly-696.zip" sparkle:version="696" 
+                 sparkle:shortVersionString="696" sparkle:edSignature="+YNx65rC06DUFHkkhkYwpljghTtGjFEf0b17h0yLQZa2eAOlbQLJHYc9N+cVrMLwf1Ckwma61dLAs49fqe/zAQ==" 
+                 length="5675048" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
