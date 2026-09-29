@@ -3,51 +3,15 @@
   <channel>
     <title>Mayfly</title>
     <item>
-      <title>Build 692</title>
-      <pubDate>Tue, 29 Sep 2026 10:50:09 +1300</pubDate>
+      <title>Build 694</title>
+      <pubDate>Tue, 29 Sep 2026 15:14:13 +1300</pubDate>
       <description><![CDATA[<ul>
-<li><strong>The note chat stands apart from the note.</strong> It is now a column of its own, with the window showing between it and the note, the same as the list beside it. In a narrow window it floats over the note the same way. It has a close button at the top right, and ⌘⇧A opens and closes it (Note menu).</li>
-<li><strong>Narrow lists read properly.</strong> Project codes no longer break mid-word, and a list's title shrinks to fit instead of being cut to "Al…".</li>
-</ul>
-<ul>
-<li><strong>Mid-meeting chat is much quicker.</strong> Answers appear as they are written instead of all at once at the end. The transcript is now sent in five-minute parts that stay cached, so a question an hour in sends only the last few minutes fresh rather than the whole meeting again. On a real hour-long meeting that is about $0.008 a question instead of $0.057, and far less for the model to read before it starts answering.</li>
-<li><strong>Quick actions for the middle of a meeting.</strong> What did I just miss?, What was I just asked? (with a line you could say back), Catch me up, Questions to ask, and Action points. One click asks. They wrap so all of them are in view, answer on ⌃⌘1 to ⌃⌘5 while recording, and are in the menu bar too, so you can ask from the call and Mayfly comes forward with the answer.</li>
-<li><strong>Follow-ups work in the note chat.</strong> It now sees your last two exchanges, so "who said that?" after an answer knows what "that" was. A quick action shows in the conversation as its short label, not the paragraph of instructions behind it.</li>
-</ul>
-<ul>
-<li><strong>See what a question will cost as you type it.</strong> Both chats show an estimate beside the send button. It is worked out on the Mac from what the question will carry, so showing it costs nothing. Hover it to see what it is made of: how much context goes with every question, whether that context is still cached from your last one (a tenth of the price for five minutes), images, and whether the brief has to be rebuilt first.</li>
-<li><strong>Briefs have no word limit, and can be condensed.</strong> The Brief sheet shows how much of every question the brief accounts for. Condense shortens it while keeping every decision, name, number and date. The result appears in the editor for you to read before anything is saved, and the original is one click away.</li>
-<li><strong>Spend was overstated.</strong> Every request that wrote to Anthropic's prompt cache was counted twice, once at the normal price and again at the cache price. A first question recorded as $0.105 had cost $0.061. Figures from now on are right; earlier ones are still too high.</li>
-<li><strong>Hover a todo to see where it came from.</strong> A todo from Slack shows the channel, when the message was sent, whether you wrote it, and the message itself. Its arrow opens the message in Slack.</li>
-<li><strong>Mark a Slack todo as not relevant.</strong> The thumbs-down that appears on hover removes the todo, and from then on the Slack reader is shown it as an example of a mistake to avoid. Your corrections are counted, and can be forgotten, in Settings, Slack.</li>
-<li><strong>The Slack reader can tell when you are mentioned.</strong> It was given Slack's raw mention codes, so a message that @-mentioned you looked like one that mentioned anybody. A mention of you now reaches it as your name, from the next sync. Email addresses in messages are replaced before anything is sent.</li>
-<li><strong>The live chat answers straight away.</strong> Mid-meeting it could stop to write a project brief before answering, which it was never meant to do.</li>
-</ul>
-<ul>
-<li><strong>"Keep out of AI" now covers what a note became.</strong> Project chat on both the Mac and the phone, and the Mac's project brief, were withholding an excluded meeting's summary and notes but still sending the decisions, open questions and todos extracted from it. Those are now withheld too.</li>
-<li><strong>iPhone: other people's todos have their own place.</strong> With "Waiting on others" switched on, each person gets a section of their own instead of their items being mixed in with yours.</li>
-<li><strong>iPhone: fixes throughout.</strong> Onboarding no longer says the phone cannot record. The sync line only appears when there is something to know. Titles no longer run into the list as you scroll. Project codes and log labels look the same everywhere.</li>
-</ul>
-<ul>
-<li><strong>Better project briefs.</strong> A project's brief was being built from its forty newest items of any kind, so a busy Slack channel filled every slot and email, documents and commits never reached it. Worse, those Slack messages were presented as git commits, by channel name alone. Each source now has its own share, Slack messages are shown as messages, and Drive documents are included. The brief also knows which sources to trust most when they disagree. Rebuild a brief from its project's Brief sheet to see the difference.</li>
-<li><strong>Tidier AI instructions.</strong> Several prompts were being sent with gaps of stray spaces in the middle of sentences, and a few gave the model contradictory instructions. Both are fixed.</li>
-</ul>
-<ul>
-<li><strong>Fits a laptop screen.</strong> On smaller windows the notes list and sidebar now make room for the note instead of squeezing it, and the sidebar becomes a drawer when there is no room for it at all. The note chat sits beside the note when there is space and over it when there is not, the note's tabs no longer break onto one letter per line, and chat messages stay inside the panel. On a large screen your column widths are exactly as you left them.</li>
-</ul>
-<ul>
-<li><strong>A tidier, more consistent interface.</strong> Section headings are now sentence case at one size throughout, instead of small capitals at three different sizes. Nothing is smaller than 11pt, so metadata is readable. Corners are consistent between elements of the same kind. Notifications and the recording panel are drawn like the rest of the app rather than as frosted glass. Settings and tooltips read as sentences, and a project whose name and code match no longer shows the same word twice.</li>
-</ul>
-<ul>
-<li><strong>The chats behave like chats.</strong> Select across a whole reply, and right-click to copy exactly what you selected rather than the entire message. Scrolling up to reread no longer gets yanked back down when an answer arrives; a button takes you to the latest instead. Escape closes either chat, opening the note chat puts the caret in it, and the note chat stays open as you move between notes. Where a reply goes is now written in words (Add to this note, Save as a new note, Add to the project brief) instead of two near-identical icons.</li>
-</ul>
-<ul>
-<li><strong>Click the version number to see what changed.</strong> Every build's notes, shipped inside the app, so it works offline and describes the build you are actually running.</li>
+<li><strong>Hand a todo to Claude.</strong> Hover a todo and press the paper plane, or right-click it, and Mayfly copies it as a prompt and brings Claude forward for you to paste into the right chat. The prompt carries the todo, what was said and where, its owner and deadline, and, if you choose "with Project Brief", what Mayfly knows about the project. It asks Claude to say how it would go about it before changing anything. Todos from notes kept out of AI are never offered, and email addresses are replaced. Nothing is sent by Mayfly itself: Claude's desktop app has no way for another app to pick a chat, so you choose it.</li>
 </ul>]]></description>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/kusalekanayake/mayfly-release/releases/download/v692/Mayfly-692.zip" sparkle:version="692" 
-                 sparkle:shortVersionString="692" sparkle:edSignature="SeCRW+ikVrtqhweetgcV8hmsFzORJ8JuAdxmRhl7FxwnDqc6r8A9fA5Puj9+ycj/XVuA9ts3h+NzkfIgKVGvCQ==" 
-                 length="5650240" type="application/octet-stream"/>
+      <enclosure url="https://github.com/kusalekanayake/mayfly-release/releases/download/v694/Mayfly-694.zip" sparkle:version="694" 
+                 sparkle:shortVersionString="694" sparkle:edSignature="kUFTzkyl8z2BqVbsjHW68bythY4i5ZroVQ7/FvFrRdWxW8pEoQt0EEYkx+Dm4sZWncK929Aio50hZvForaKKBg==" 
+                 length="5658857" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
