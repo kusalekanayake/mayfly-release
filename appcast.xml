@@ -3,15 +3,18 @@
   <channel>
     <title>Mayfly</title>
     <item>
-      <title>Build 700</title>
-      <pubDate>Mon, 02 Nov 2026 15:47:37 +1300</pubDate>
+      <title>Build 701</title>
+      <pubDate>Tue, 03 Nov 2026 10:38:40 +1300</pubDate>
       <description><![CDATA[<ul>
-<li><strong>Choose how often Slack is checked, and when.</strong> Settings, Connections, Slack now starts with the timing rather than hiding it under the channel list. Pick an interval from every 5 minutes to every 4 hours, and turn on Only in working hours to check on weekdays between the times you set (9:00 to 5:00 to begin with). The interval is now a limit on every automatic check: switching back to Mayfly no longer reads Slack on its own. Sync now still reads it straight away whenever you press it.</li>
+<li><strong>Draft the emails a meeting agreed to send, from the note.</strong> A note's todos that mean writing to someone now show Draft email at the end of the row, without hovering. It opens the same sheet as before: the whole message, who it goes to and the subject, for you to change before Open in Gmail, where you send it yourself. Summaries now mark these todos themselves, so the button also reaches ones worded without a sending verb, like "Check with Sam whether the extract is final" or "Reach out to the client to confirm Tuesday", and todos nobody was given as owner. Notes summarised before this keep the old rule until they are summarised again.</li>
+<li><strong>A draft is one message, never the meeting notes.</strong> The drafting instructions now say so outright: no recap of what was discussed and no list of the other actions, only what this message needs.</li>
+<li><strong>The meeting banner names the app.</strong> A call in Dia, Arc, Chrome or a Slack huddle uses the microphone through a helper process, and the "Take notes?" banner showed that helper's internal id (company.thebrowser.browser.helper) instead of the browser. It now says "In Dia" (or whichever app it is) under the meeting's name, and no longer repeats the name on that line.</li>
+<li><strong>Stats, the first tab beside Todo.</strong> It opens on how many notes Mayfly holds and a chart of notes per month since the first one, split into recorded in Mayfly, typed and imported from Granola. Below that is a table of projects (notes, hours recorded, log entries, messages, last note), where clicking a project opens it. Then come meeting hours per week, your todos (open, done, how soon they usually get done, how many have waited over a month), the people you meet most, AI spend by month, what was read from Slack, email and documents, and the project log by type. At the bottom are space used on this Mac, including the safety copies kept before database upgrades, and the recent builds with a link to What changed. With a project selected, it shows that project only. Meeting hours start when Mayfly began recording, in late July 2026, because notes imported from Granola have no reliable length.</li>
 </ul>]]></description>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/kusalekanayake/mayfly-release/releases/download/v700/Mayfly-700.zip" sparkle:version="700" 
-                 sparkle:shortVersionString="700" sparkle:edSignature="3APoFzOoNYDYOktknRG8YFWMvwF7WjjBGXPB9D0VaUP74QYc9NVfG4R0nZrlvXz2aC+gr0KVGdRyrQQCe0ggDQ==" 
-                 length="6010688" type="application/octet-stream"/>
+      <enclosure url="https://github.com/kusalekanayake/mayfly-release/releases/download/v701/Mayfly-701.zip" sparkle:version="701" 
+                 sparkle:shortVersionString="701" sparkle:edSignature="2KJMzGSW00y6YDo2HEsYptzm4w1vdZFnCZwgs3VCwx2EGeVuVkw+KCtY8dsQkRHv1ImRJbBaQoIbfNCAbT59Bw==" 
+                 length="6266824" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
