@@ -3,18 +3,22 @@
   <channel>
     <title>Mayfly</title>
     <item>
-      <title>Build 701</title>
-      <pubDate>Tue, 03 Nov 2026 10:38:40 +1300</pubDate>
+      <title>Build 707</title>
+      <pubDate>Wed, 11 Nov 2026 13:06:12 +1300</pubDate>
       <description><![CDATA[<ul>
-<li><strong>Draft the emails a meeting agreed to send, from the note.</strong> A note's todos that mean writing to someone now show Draft email at the end of the row, without hovering. It opens the same sheet as before: the whole message, who it goes to and the subject, for you to change before Open in Gmail, where you send it yourself. Summaries now mark these todos themselves, so the button also reaches ones worded without a sending verb, like "Check with Sam whether the extract is final" or "Reach out to the client to confirm Tuesday", and todos nobody was given as owner. Notes summarised before this keep the old rule until they are summarised again.</li>
-<li><strong>A draft is one message, never the meeting notes.</strong> The drafting instructions now say so outright: no recap of what was discussed and no list of the other actions, only what this message needs.</li>
-<li><strong>The meeting banner names the app.</strong> A call in Dia, Arc, Chrome or a Slack huddle uses the microphone through a helper process, and the "Take notes?" banner showed that helper's internal id (company.thebrowser.browser.helper) instead of the browser. It now says "In Dia" (or whichever app it is) under the meeting's name, and no longer repeats the name on that line.</li>
-<li><strong>Stats, the first tab beside Todo.</strong> It opens on how many notes Mayfly holds and a chart of notes per month since the first one, split into recorded in Mayfly, typed and imported from Granola. Below that is a table of projects (notes, hours recorded, log entries, messages, last note), where clicking a project opens it. Then come meeting hours per week, your todos (open, done, how soon they usually get done, how many have waited over a month), the people you meet most, AI spend by month, what was read from Slack, email and documents, and the project log by type. At the bottom are space used on this Mac, including the safety copies kept before database upgrades, and the recent builds with a link to What changed. With a project selected, it shows that project only. Meeting hours start when Mayfly began recording, in late July 2026, because notes imported from Granola have no reliable length.</li>
+<li><strong>Notes list grouped by day.</strong> Notes sit under Today, Yesterday and then the date, with the title on the first line and the start time beside it. The project tag, summary and length are on the second line, so titles are no longer cut short.</li>
+<li><strong>Transcript reads in turns.</strong> Fragments from the same speaker are one paragraph under a single name and time, so a conversation takes far less space. Speakers are never shown as an email address, and lines no longer start with a stray space.</li>
+<li><strong>Time tab header no longer breaks.</strong> The title and buttons stay on one line each in a narrow pane, and the controls move to a second row when the pane is tight.</li>
+<li><strong>Wrapped bullets line up.</strong> The second line of a bullet, numbered item or task starts under the first letter of the first line, at every indent.</li>
+<li><strong>One look for project codes and dates.</strong> A project's code looks the same in the notes list, Todo, Log, Mail and Upcoming. Dates and times read the same everywhere, for example <code>Thu 6 Nov</code> and <code>10:00 am</code>.</li>
+<li><strong>Regenerate is quieter.</strong> It is now a text link at the end of the Meeting context row instead of a button in its own band under every summary.</li>
+<li><strong>Copy or export a transcript.</strong> On the Transcription tab, two buttons beside the chat button copy the whole transcript or save it as a Markdown file. Both are also in the ··· menu, so the transcript tab does not have to be open. Consecutive lines from the same speaker are joined into one turn, each starting with its time and the speaker's name as the transcript shows it.</li>
+<li><strong>Fold away what sits above the note.</strong> Click the heading of Follow-up meeting, Waiting on you, Suggested for the log or To raise here to fold it to one line, with its count (or, for a follow-up, the meeting and day) still showing. Mayfly remembers which are folded across notes, so a busy meeting no longer pushes the note itself off the screen.</li>
 </ul>]]></description>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/kusalekanayake/mayfly-release/releases/download/v701/Mayfly-701.zip" sparkle:version="701" 
-                 sparkle:shortVersionString="701" sparkle:edSignature="2KJMzGSW00y6YDo2HEsYptzm4w1vdZFnCZwgs3VCwx2EGeVuVkw+KCtY8dsQkRHv1ImRJbBaQoIbfNCAbT59Bw==" 
-                 length="6266824" type="application/octet-stream"/>
+      <enclosure url="https://github.com/kusalekanayake/mayfly-release/releases/download/v707/Mayfly-707.zip" sparkle:version="707" 
+                 sparkle:shortVersionString="707" sparkle:edSignature="0FuliAr5R96krSDohI7VVTFFVzkOods4Re6G4QOQCBDxyk9tU4gNonaH1rpVwUjTMAxEga+/oQ2bhpwEPF1LCw==" 
+                 length="6306010" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
