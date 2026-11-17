@@ -3,22 +3,19 @@
   <channel>
     <title>Mayfly</title>
     <item>
-      <title>Build 707</title>
-      <pubDate>Wed, 11 Nov 2026 13:06:12 +1300</pubDate>
+      <title>Build 718</title>
+      <pubDate>Tue, 17 Nov 2026 16:09:16 +1300</pubDate>
       <description><![CDATA[<ul>
-<li><strong>Notes list grouped by day.</strong> Notes sit under Today, Yesterday and then the date, with the title on the first line and the start time beside it. The project tag, summary and length are on the second line, so titles are no longer cut short.</li>
-<li><strong>Transcript reads in turns.</strong> Fragments from the same speaker are one paragraph under a single name and time, so a conversation takes far less space. Speakers are never shown as an email address, and lines no longer start with a stray space.</li>
-<li><strong>Time tab header no longer breaks.</strong> The title and buttons stay on one line each in a narrow pane, and the controls move to a second row when the pane is tight.</li>
-<li><strong>Wrapped bullets line up.</strong> The second line of a bullet, numbered item or task starts under the first letter of the first line, at every indent.</li>
-<li><strong>One look for project codes and dates.</strong> A project's code looks the same in the notes list, Todo, Log, Mail and Upcoming. Dates and times read the same everywhere, for example <code>Thu 6 Nov</code> and <code>10:00 am</code>.</li>
-<li><strong>Regenerate is quieter.</strong> It is now a text link at the end of the Meeting context row instead of a button in its own band under every summary.</li>
-<li><strong>Copy or export a transcript.</strong> On the Transcription tab, two buttons beside the chat button copy the whole transcript or save it as a Markdown file. Both are also in the ··· menu, so the transcript tab does not have to be open. Consecutive lines from the same speaker are joined into one turn, each starting with its time and the speaker's name as the transcript shows it.</li>
-<li><strong>Fold away what sits above the note.</strong> Click the heading of Follow-up meeting, Waiting on you, Suggested for the log or To raise here to fold it to one line, with its count (or, for a follow-up, the meeting and day) still showing. Mayfly remembers which are folded across notes, so a busy meeting no longer pushes the note itself off the screen.</li>
+<li><strong>Schedule.</strong> A new Schedule row in the sidebar shows every todo with a due date on a month, with previous, next and Today controls and a project filter. Opening it from a project starts on that project. Click an item to see its note's "Before posting" list, copy the post, tick it, open the note or move its date, without leaving the month. Done items stay on their day. On the iPhone, the Todos tab has a List and Schedule switch with a compact month and the day's items below it.</li>
+<li><strong>Platform, images and your calendar in Schedule.</strong> A post shows where it goes (the Platform and Account lines in its note) and its images, which can be copied, opened full size, or added by dropping a file on the post. Events from the calendars Mayfly already reads appear on the month in quieter text, after your own items, and are left out when they repeat a post's title. A Calendar checkbox on the Mac, and a menu item on the iPhone, switches them off.</li>
+<li><strong>Posts due today.</strong> A post that is due today, or was due and is not ticked, shows as a plain line at the top of the notes list on the Mac and in a Posts due section on the iPhone's Today screen, with the number due on the Schedule row. Clicking it opens the post. One notification is sent on the day, at 9:00 am unless you change it in Settings, and none for a post you have ticked.</li>
+<li><strong>Save a post's images.</strong> The Mac saves an image as the file it holds, from the image strip, the full-size viewer and Media, and an image can be dragged out to Finder or a browser. The iPhone has a share button on each image, which includes Save to Photos and AirDrop.</li>
+<li><strong>Due dates on import.</strong> A Markdown file with a <code>due:</code> date in its frontmatter now arrives with a todo for that day, linked to its note. Importing the same folder again does not duplicate it.</li>
 </ul>]]></description>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/kusalekanayake/mayfly-release/releases/download/v707/Mayfly-707.zip" sparkle:version="707" 
-                 sparkle:shortVersionString="707" sparkle:edSignature="0FuliAr5R96krSDohI7VVTFFVzkOods4Re6G4QOQCBDxyk9tU4gNonaH1rpVwUjTMAxEga+/oQ2bhpwEPF1LCw==" 
-                 length="6306010" type="application/octet-stream"/>
+      <enclosure url="https://github.com/kusalekanayake/mayfly-release/releases/download/v718/Mayfly-718.zip" sparkle:version="718" 
+                 sparkle:shortVersionString="718" sparkle:edSignature="xqZjW56Kb8n5fcfcVRiMwkF8Qid5L3rLxtpoN9ysz8VXWcZBnBYgMdqcI7Gdqf2R6xgKDODxu+d6U8pZRgvTDw==" 
+                 length="6629678" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
